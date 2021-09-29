@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos animation lib-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/><!--font awesome icon lib-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/><!--hover lib-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <title>Shaaban M Altamer</title>
+</head>
+<body>
+    <!-- Nav bar-->
+   <!--  the main nav-->    
+   <nav class="navbar navbar-expand-lg navbar-dark bg-sec bg-transparent bg-gradient fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand mt-2" href="#">
+            <img src="img/icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top hvr-bounce-in">
+            <h5 class="d-inline-block"><div>Shaaban</div> altamer</h5>
+          </a>
+          <div class="navbar-collapse justify-content-end collapse">
+            <ul class="navbar-nav  text-uppercase me-2 mb-2 mb-lg-0 ">
+              <li class="nav-item hvr-sweep-to-top hvr-icon-grow-rotate hvr-float-shadow ">
+                <a class="nav-link" aria-current="page" href="#">Home <i class="fa fa-home hvr-icon ms-2 "></i></a>
+              </li>
+              <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+                <a class="nav-link" href="#twitter-icon">About <i class="fa fa-user hvr-icon ms-2 "></i></a>
+              </li>
+              <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+                <a class="nav-link" href="#lang">Skills <i class="fa fa-cogs hvr-icon ms-2"></i></a>
+              </li>
+              <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+                <a class="nav-link" href="#sass">Portfolio <i class="fa fa-image hvr-icon ms-2"></i></a>
+              </li>
+              <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+                <a class="nav-link" href="#w-e">Experience <i class="fa fa-industry hvr-icon ms-2"></i></a>
+              </li>
+              <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+                <a class="nav-link" href="#contact">Contact <i class="fa fa-fax hvr-icon ms-2 "></i></a>
+              </li>
+            </ul></div>
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas  offcanvas-end text-center justify-content-end" tabindex="-1" id="offcanvasRight" >
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav  text-uppercase me-2 mb-2 mb-lg-0 ">
+          <li class="nav-item hvr-sweep-to-top hvr-icon-grow-rotate hvr-float-shadow ">
+            <a class="nav-link" aria-current="page" href="#">Home <i class="fa fa-home hvr-icon ms-2 "></i></a>
+          </li>
+          <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+            <a class="nav-link" href="#twitter-icon">About <i class="fa fa-user hvr-icon ms-2 "></i></a>
+          </li>
+          <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+            <a class="nav-link" href="#lang">Skills <i class="fa fa-cogs hvr-icon ms-2"></i></a>
+          </li>
+          <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+            <a class="nav-link" href="#sass">Portfolio <i class="fa fa-image hvr-icon ms-2"></i></a>
+          </li>
+          <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+            <a class="nav-link" href="#w-e">Experience <i class="fa fa-industry hvr-icon ms-2"></i></a>
+          </li>
+          <li class="nav-item hvr-float-shadow hvr-icon-grow-rotate">
+            <a class="nav-link" href="#contact">Contact <i class="fa fa-fax hvr-icon ms-2 "></i></a>
+          </li>
+         
+        </ul></div>
+        
+      </div>
+    </div>
+  </nav>
+    <!--  cover  -->
+    <div class="cover ">
+        <div class="cover-op ">
+          <div class="page-header text-center">
+            <div class="profile-pic m-auto hvr-grow">
+              <img class="img-fluid my-img" src="img/me.jpg" alt="Shaaban M Altamer">
+            </div>
+            <div class="my-name">
+            <h1 class="aos-init" data-aos="fade-right"  data-aos-anchor-placement="top-bottom">Shaaban M Altamer</h1>
+            <p class="lead aos-init" data-aos="fade-left"  data-aos-anchor-placement="top-bottom">UI Developer , IT Engineer and Master of Web Science Student </p>
+            </div>
+            <button class="btn btn-primary">Send a message</button>
+            <br>
+            <a class="btn btn-default cc-facebook  btn-round btn-lg btn-icon" data-aos="fade-right"
+            data-aos-duration="500" href="https://www.facebook.com/shaaban.altamer" target="_blank"><i class=" fab fa-facebook-f"></i></a>
+            <a class="btn btn-default cc-instagram btn-round btn-lg btn-icon" data-aos="fade-up"
+            data-aos-duration="500" href="https://www.instagram.com/shaaban.altamer" target="_blank"><i class=" fab fa-instagram"></i></a>
+            <a class="btn btn-default cc-twitter btn-round btn-lg btn-icon" data-aos="fade-left"
+            data-aos-duration="500" href="https://www.twitter.com/shaaban.altamer" target="_blank"><i id="twitter-icon" class=" fab fa-twitter"></i></a>
+
+          </div>
+        </div>
+      </div>
+      <!--  About  -->
+      <div class="about shadow-lg " id="about" data-aos="fade-up" >
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 >About</h2>
+              <p class="lead">Hi! , my name is Shaaban , junior web developer spicealized in <span>UI Developing</span> and transforming all kind of  web designs into a <span>perfect</span> ,<span>easy reading</span> and <span>well structured</span> codes.</p>
+            </div>
+            <div class="col d-flex flex-column">
+              <h2>Basic Informations</h2>
+              <div class="d-flex flex-row">
+                <div class="col-md-6 col-xs-12">AGE:</div>
+                <div class="col-md-6 col-xs-12">28</div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="col-md-6 col-xs-12">EMAIL:</div>
+                <div class="col-md-6 col-xs-12"><a href="mailto:shaaaban9@gmail.com">shaaaban9@gmail.com</a></div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="col-md-6 col-xs-12">PHONE:</div>
+                <div class="col-md-6 col-xs-12">+963/931 861 238</div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="col-md-6 col-xs-12">ADDRESS:</div>
+                <div class="col-md-6 col-xs-12">AlArman , Homs , Syria</div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="col-md-6 col-xs-12">LANGUAGES:</div>
+                <div id="lang" class="col-md-6 col-xs-12">Arabic , English , French</div>
+              </div>
+              
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills-->
+      <section id="skills" class="skills " data-aos="fade-up">
+        <div class="container">
+          <div class="h2 text-center mb-5 title">Professional Skills</div>
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">REACT JS</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                      <span class="progress-value">60%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span id="sass" class="progress-badge">SASS</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                      <span class="progress-value">40%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">MATERIAL UI</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                      <span class="progress-value">40%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span id="sass" class="progress-badge">GIT/GITHUB</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">HTML</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                      <span class="progress-value">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary " >
+                    <span class="progress-badge">CSS</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init" data-aos="progress-full" data-aos-offset="10" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                      <span class="progress-value">90%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">JAVASCRIPT</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">BOOTSTRAP</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary aos-init " data-aos="progress-full" data-aos-offset="10" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--  portfolio  -->
+    <section id="portfolio" class="portfolio aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="h2 text-center mb-5 title">Portfolio</div>
+          <div class=" mt-5">
+            <div class="ml-auto mr-auto">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="col-md-12 img-contain ">
+                  <div class="cc-portfolio-image  aos-init shadow-lg  "  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="#portfolio">
+                      
+                        <img src="img/1.png" alt="first image">
+                        
+                    </a>
+                    <figcaption>
+                      
+                      <p class="mt-3">My Personal Website</p>
+                      <a href="https://shaaban-altamer.netlify.app" class="text-white">take a look</a>
+                    </figcaption>
+                  </div>
+                  </div>
+                  <div class="col-md-12 img-contain">
+                  <div class="cc-portfolio-image shadow-lg aos-init " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="#">
+                      
+                        <img  src="img/4.jpg" alt="second image">
+                        
+                    </a>
+                    <figcaption>
+                      <h2>THE THIRD PROJECT</h2>
+                      <p>A NEWS BLOG DEMO</p>
+                      <a href="https://shaaban-newsblogdemo.netlify.app" target="_blank" class="text-white">take a look</a>
+                    </figcaption>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-md-12 img-contain">
+                  <div class="cc-portfolio-image shadow-lg aos-init " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="#portfolio">
+                      
+                        <img  src="img/3.jpg" alt="third image">
+                        
+                    </a>
+                    <figcaption>
+                      <h2>MY SECOND PROJECT</h2>
+                      <p>E-COMMERCE WEBSITE</p>
+                      <a href="https://shaaban-ecommercedemo.netlify.app" target="_blank" class="text-white">take a look</a>
+                    </figcaption>
+                  </div>
+                  </div>
+                  <div class="col-md-12 img-contain ">
+                  <div class="cc-portfolio-image shadow-lg aos-init " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="#portfolio">
+                      
+                        <img src="img/2.jpg" alt="fourth image">
+                        
+                      
+                    </a>
+                    <figcaption>
+                      <h2>AND HERE WILL BE</h2>
+                      <p>THE FOURTH ONE</p>
+                    </figcaption>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Work Experience  -->
+    <div id="w-e"></div>
+    <section id="work-experience" class="work-experience aos-init" data-aos="fade-up">
+      <div class="h2 text-center mb-5 title">Work Experience</div>
+      <div class="container">
+        <div class="row">
+          <div class="work col-12  shadow-lg ">
+            <div class="row">
+            <div class="work-title col-md-3  bg-sec bg-gradient  text-center" data-aos="fade-right" >
+              <h5>present</h5>
+              <h3>UI Web <br>Developer</h3>
+              
+            </div>
+          
+            <div class="work-description col-md-9 " data-aos="fade-left" >
+              <h5>Freelancer</h5>
+              <p class="lead">junior web developer spicealized in UI Developing and transforming all kind of  web designs into a perfect ,easy reading and well structured codes.</p>
+            </div>
+          </div>
+          </div>
+          <div class="work col-12 shadow-lg ">
+            <div class="row">
+            <div class="work-title col-md-3 bg-sec bg-gradient  text-center" data-aos="fade-right" >
+              <h5>2017-2019</h5>
+              <h3>security system Engineer</h3>
+              
+            </div>
+            <div class="work-description col-md-9  " data-aos="fade-left" >
+              <h5>Syriatel Mobile Telecom, Homs-SY</h5>
+              <p class="lead">site Engineer spicealized in all kinds of security systems equipments , fire alarms , security cameras and access control systems.</p>
+            </div>
+          </div>
+          </div>
+          <div class="work col-12  shadow-lg ">
+            <div class="row">
+            <div class="work-title col-md-3 bg-sec bg-gradient  text-center" data-aos="fade-right" >
+              <h5>2014-2017</h5>
+              <h3>security system Engineer</h3>
+              
+            </div>
+            <div class="work-description col-md-9  " data-aos="fade-left" >
+              <h5>Camera Center, Homs-SY</h5>
+              <p class="lead">site Engineer spicealized in all kinds of security systems equipments , fire alarms , security cameras and access control systems.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!--  Education -->
+    <section id="education" class="education aos-init" data-aos="fade-up">
+      <div class="h2 text-center mb-5 title">Education</div>
+      <div class="container">
+        <div class="row">
+          <div class="edu col-12  shadow-lg ">
+            <div class="row">
+            <div class="edu-title col-md-3  bg-sec bg-gradient  text-center" data-aos="fade-right" >
+              <h5>present</h5>
+              <h3>MWS Student</h3>
+              
+            </div>
+          
+            <div class="edu-description col-md-9 " data-aos="fade-left" >
+              <h5>SVU - Syrian Virtual University</h5>
+              <p class="lead">Master of Web Science Student.</p>
+            </div>
+          </div>
+          </div>
+          <div class="edu col-12 shadow-lg ">
+            <div class="row">
+            <div class="edu-title col-md-3 bg-sec bg-gradient  text-center" data-aos="fade-right" >
+              <h5>2020 Graduation</h5>
+              <h3>Information technology Engineering</h3>
+              
+            </div>
+            <div class="edu-description col-md-9  " data-aos="fade-left" >
+              <h5>Al-Baath University, Homs-SY</h5>
+              <p class="lead">a student since 2010 paused at 2014 because of work.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--   contact    -->
+      
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="cn-card">
+            <div class="row">
+              <div class="contact-card col-md-9 shadow-lg aos-init" data-aos="zoom-in">
+                <div class="h2 text-center mb-5 title">Contact me</div>
+                <div class="container">
+                  <div class="row">
+                    <div class="cn-form  col-lg-6">
+                      
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floating-email" placeholder="name@example.com">
+                        <label for="floating-email"><i class="fa fa-envelope"></i>   Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floating-subject" placeholder="subject">
+                        <label for="floating-subject"><i class="fa fa-file-archive "></i> Subject</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floating-name" placeholder="name">
+                        <label for="floating-name"><i class="fa fa-user "></i> Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea type="text" class="form-control" id="floating-text-area" placeholder="message"></textarea>
+                        <label for="floating-text-area"><i class="fa fa-comment"></i>Message</label>
+                      </div >
+                      <div class="text-center mb-3">
+                      <button class="btn btn-primary">Send</button>
+                    </div>
+                    </div>
+                    <div class="my-info  col-lg-6">
+                      <div>
+                        <h3>Address</h3>
+                        <p>Syria, Homs, AlArman</p>
+                      </div>
+                      <div>
+                        <h3>Phone</h3>
+                        <p>+963 931 861 238</p>
+                      </div>
+                      <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:shaaaban9@gmail.com">shaaaban9@gmail.com</a></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+      </div></div></div>
+      </section>
+      <!--     footer    -->
+      <footer class="footer" id="footer">
+        <div class="container text-center">
+          <a class="cc-facebook btn btn-link" href="https://www.facebook.com/shaaban.altamer" target="_blank">
+            <i class="fab fa-facebook-f fa-2x " aria-hidden="true"></i>
+          </a>
+          <a class="cc-instagram btn btn-link" href="https://www.instagram.com/shaaban.altamer" target="_blank">
+            <i class="fab fa-instagram fa-2x " aria-hidden="true"></i>
+          </a>
+          <a class="cc-twitter btn btn-link" href="https://www.twitter.com/shaaban.altamer" target="_blank">
+            <i class="fab fa-twitter fa-2x " aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="h4 title text-center">Shaaban Altamer</div>
+        <div class="text-center text-muted">
+          <p>© Shaaban Altamer. All rights reserved.<br>+963 931 861 238</p>
+        </div>
+      </footer>
+    <!--  Scripts  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
